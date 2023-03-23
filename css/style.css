@@ -1,0 +1,158 @@
+/* flex styles */
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+}
+.box3 {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+.flex-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* flex practice */
+.wraper {
+    width: 1171px;
+    background-color: lightskyblue;
+    margin: 0 auto;
+}
+.wraper-text {
+    width:771px;
+    margin: 0 auto;
+    background-color: lightyellow;
+    text-align: center;
+}
+.box-parent {
+    width: 371px;
+    height: 374px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-child {
+    width: 251px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.blue-box {
+    width: 88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-block01 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 773px;
+    align-content: space-between;
+}
+/* .active {
+    margin-bottom: 25px;
+} */
+/* .flex-block02 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+} */
+
+/* section styles */
+.image-container {
+    width:1400px;
+    margin: 0 auto;
+}
+.image-border-radius {
+    border-radius: 30px;
+}
+/* grey block style */
+
+.grey-block {
+    width: 537px;
+    height: 252px;
+    background-color: grey;
+    padding:63px 0;
+}
+.parent-text-block {
+    width:447px;
+    background-color: yellow;
+    margin:0 auto;
+}
+.text-organic {
+    font-size: 18px;
+    line-height: 165.4%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+/* footer styles */
+.container-footer {
+    width:1398px;
+    margin:0 auto;
+}
+.block01 {
+    width:285px;
+    background-color: lightpink;
+    display: inline-block;
+    vertical-align: top;
+}
+.span-contact {
+    display: block;
+    font-size: 18px;
+    color:#525C60;
+}
+.a-contact {
+    display: block;
+    font-size: 18px;
+    color: #525C60;
+}
+.contact-li {
+    margin-bottom: 40px;
+}
+.contact-title {
+    margin-bottom: 33px;
+}
+
+.block02 {
+    width: 543px;
+    background-color: lightblue;
+    display: inline-block;
+    vertical-align: top;
+    margin:0 143px 0 142px;
+    text-align: center;
+}
+.block03 {
+    width:285px;
+    background-color: lightsalmon;
+    display: inline-block;
+    vertical-align: top;
+}
+.copyright {
+    width: 699px;
+    margin:0 auto;
+    background-color: coral;
+}
